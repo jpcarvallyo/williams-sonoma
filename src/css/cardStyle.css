@@ -1,0 +1,49 @@
+.card {
+    border: 0px solid rgba(0,0,0,.125);
+    box-shadow: 2px 2px 4px #cecece;
+    cursor: pointer;
+}
+
+.card-img-top {
+    border-radius: calc(.25rem - 1px);
+}
+
+.title {
+    color: #525252;
+    background-color: rgba(256, 256, 256, 0.8);
+    position: absolute;
+    min-width: 100%;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+}
+
+div.priceContainer {
+    position: absolute;
+    bottom: 6%;
+    left: 1em;
+    display: flex;
+}
+
+span.price {
+    color: white;
+    background-color: #484749;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.8em;
+    padding: 0.2em 1em;
+    border-radius: 2px;
+}
+
+@media (min-width: 576px) {
+    .card-deck .card {
+        margin-bottom: 6em;
+    }
+}
+
+@media (max-width: 425px) {
+    .card {
+        margin-bottom: 2em !important;
+    }
+}
