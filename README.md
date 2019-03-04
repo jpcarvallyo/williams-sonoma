@@ -1,3 +1,10 @@
+This is my submission to the Williams Sonoma coding challenge. I was given a JSON file in which I pulled the data into my application and styled it according to a few design samples I was given. I originally went for fetching the data as there was a url provided but encountered a CORBS issue (https://community.oracle.com/thread/4201609), so I elected to create a JSON file and pasted the data in there to use within this application. 
+
+I styled the application using react-bootstrap.
+
+Upon clicking the card image, a modal pops open containing a carousel with images related to the item that was clicked on. All this information is dynamic.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
